@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div">
+            <p>Escolha qual é a escala base: </p>
+            <select name="escalas1" class="escalas" id="select1">
+                <option value="celcius">celcius</option>
+                <option value="kelvin">kelvin</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="jobisnos">jobisnos</option>
+            </select>
+            <label for="" id="labelnumber" class="escalas">Numero para conversão</label>
+            <input id="number" type="number">
+        </div>
+        <div class="div">
+            <p>Escolha qual é a escala  para conversão: </p>
+            <select name="escalas2" class="escalas" id="select2">
+                <option value="celcius">celcius</option>
+                <option value="kelvin">kelvin</option>
+                <option value="fahrenheit">fahrenheit</option>
+                <option value="jobisnos">jobisnos</option>
+            </select>
+        </div>
+        <div class="linha">
+            <input type="button" value="Calcular" class="butao" onclick="calcular()">
+            <div class="textinho">
+                <p id="p">Resultado é :</p>
+            </div>
+            
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
